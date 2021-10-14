@@ -4,7 +4,6 @@ import {
   View,
   StyleSheet,
   TouchableOpacity,
-  FlatList,
   SafeAreaView,
 } from 'react-native'
 import { Feather, EvilIcons, MaterialCommunityIcons } from '@expo/vector-icons'
@@ -76,7 +75,6 @@ export default function Home() {
           <Text style={{ color: 'orange' }}>All</Text>
         </TouchableOpacity>
       </View>
-      <FlatList></FlatList>
     </SafeAreaView>
   )
 }
