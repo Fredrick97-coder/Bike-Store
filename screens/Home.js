@@ -42,46 +42,13 @@ export default function Home() {
           Categories
         </Text>
       </View>
-      <View
-        style={{
-          flex: 1,
-          flexDirection: 'row',
-          justifyContent: 'center',
-        }}
-      >
-        <TouchableOpacity
-          style={{
-            backgroundColor: '#000',
-            height: 30,
-            width: 100,
-            paddingRight: 10,
-          }}
-        >
-          <Text style={{ color: 'orange' }}>All</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={{
-            backgroundColor: '#002053',
-            height: 30,
-            width: 100,
-            paddingLeft: 10,
-          }}
-        >
-          <Text style={{ color: 'orange' }}>RoadBike</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={{ backgroundColor: '#024521', height: 30, width: 100 }}
-        >
-          <Text style={{ color: 'orange' }}>All</Text>
-        </TouchableOpacity>
-      </View>
     </SafeAreaView>
   )
 }
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 50,
+    // marginTop: 50,
   },
   header: {
     flexDirection: 'row',
